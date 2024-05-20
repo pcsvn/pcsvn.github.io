@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>My New Hugo Site</title>
+        <link>http://localhost:1313/</link>
+        <description>This is my cool site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 15 May 2024 07:51:14 &#43;0000</lastBuildDate>
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>About</title>
+    <link>http://localhost:1313/posts/about/</link>
+    <pubDate>Wed, 15 May 2024 07:41:45 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/posts/about/</guid>
+    <description><![CDATA[About This is bold text, and this is emphasized text.]]></description>
+</item>
+<item>
+    <title>My First Post</title>
+    <link>http://localhost:1313/posts/my-first-post/</link>
+    <pubDate>Thu, 09 May 2024 15:50:29 &#43;0700</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/posts/my-first-post/</guid>
+    <description><![CDATA[Introduction Cài đặt repository Đối với các trang blog xây dựng bằng Jekyll thì có lẽ bạn chỉ cần duy nhất một repository như bước 2 là đủ ( tùy một số theme yêu cầu cài plugin mà github không hỗ trợ thì phải làm hơi khác). Nhưng với trang blog xây dựng bằng Hugo thì bạn cần thêm một repository nữa (cái này tên gì cũng được vì không được public ra ngoài).]]></description>
+</item>
+</channel>
+</rss>
