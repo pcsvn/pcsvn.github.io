@@ -1,18 +1,12 @@
-name: Trigger blog to build
-
+name: Repository Dispatch
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
-
+  repository_dispatch:
+    types: [my-event]
 jobs:
-  trigger:
+  myEvent:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger blog build
-        uses: peter-evans/repository-dispatch@v1
+      - uses: actions/checkout@v3
         with:
-          token: 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
-          repository: pcsvn/pcs-blog-hugo
-          event-type: update
+          ref: ${{ github.event.client_payload.ref }}
+      - run: echo ${{ github.event.client_payload.sha }}
