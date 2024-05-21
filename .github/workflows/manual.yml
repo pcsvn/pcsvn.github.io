@@ -13,6 +13,6 @@ jobs:
       - name: Trigger blog build
         uses: peter-evans/repository-dispatch@v1
         with:
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          token: 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
           repository: pcsvn/pcs-blog-hugo
           event-type: update
